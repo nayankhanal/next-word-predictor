@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+notebook.ipynb
+100_Unique_QA_Dataset.csv
+streamlit_app.py
+save_artifacts_snippet.py
+.DS_Store
