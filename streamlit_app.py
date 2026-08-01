@@ -1,7 +1,8 @@
 import requests
 import streamlit as st
 
-API_URL = "http://localhost:8000/predict"
+# API_URL = "http://localhost:8000/predict"
+API_URL = "https://next-word-predictor-production.up.railway.app/predict"
 
 st.set_page_config(page_title="QA Next-Word Predictor", page_icon="🤖")
 
