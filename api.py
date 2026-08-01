@@ -9,7 +9,7 @@ from pydantic import BaseModel
 from model import SimpleRNN
 from preprocess import text_to_indices
 
-app = FastAPI(title="Next-Word QA Prediction API")
+app = FastAPI(title="Next Word QA Prediction API")
 
 # allow Streamlit (running on a different port/origin) to call this API
 app.add_middleware(
