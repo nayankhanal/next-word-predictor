@@ -1,6 +1,5 @@
 import torch.nn as nn
 
-
 class SimpleRNN(nn.Module):
     def __init__(self, vocab_size, embedding_dim=50, hidden_size=64):
         super().__init__()
